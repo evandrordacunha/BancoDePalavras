@@ -51,9 +51,9 @@ namespace BancoDePalavras.Controllers
             }
             else
             {
-                return View("Contato", "Contato");
+                ViewBag.Contato = contato;
                 ViewBag.Mensagem = "Falha ao enviar a mensagem!";
-
+                return View("Contato", "Contato");
             }
   
         }

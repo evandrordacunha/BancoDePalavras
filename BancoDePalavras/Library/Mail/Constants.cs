@@ -12,8 +12,10 @@ namespace BancoDePalavras.Library.Mail
 
         //AUTENTICAÇÃO
 
-        public readonly static string Usuario = "EmailUsadoParaEnvio";
-        public readonly static string Senha = "SenhaDoEmailUsadoParaEnvio";
+        public readonly static string Usuario = "Email_Envio";
+        public readonly static string Senha = "Senha_Email";
+        //public readonly static string Usuario = "EmailUsadoParaEnvio";
+        //public readonly static string Senha = "SenhaDoEmailUsadoParaEnvio";
 
         //SERVIDOR SMTP
         public readonly static string ServerSMTP = "smtp.gmail.com";
